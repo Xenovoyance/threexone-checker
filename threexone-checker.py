@@ -19,8 +19,5 @@ def next_input(input):
 
 if __name__ == "__main__":
     start_time = time.time()
-    #print("Part 1: " + part_one() + " executed in " + str(time.time() - start_time) + " seconds")
-    #print("Part 2: " + part_two() + " executed in " + str(time.time() - start_time) + " seconds")
-
-    txo = 9723098723409283740239847230498972309872340928374023984723049897230987234092837402398472304989723098723409283740239847230498
-    print("3X+1 of " + str(txo) + " executed in " + str(threexone(txo)) + " steps, and in " + str((time.time() - start_time) * 1000) + " ms")
+    integer_to_check = 100
+    print("3X+1 of " + str(integer_to_check) + " executed in " + str(threexone(integer_to_check)) + " steps, and in " + str((time.time() - start_time) * 1000) + " ms")
